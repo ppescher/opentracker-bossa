@@ -37,6 +37,8 @@ ifeq ($(OS),MINGW32)
 EXE=.exe
 COMMON_SRCS+=WinSerialPort.cpp WinPortFactory.cpp
 COMMON_LDFLAGS=-Wl,--enable-auto-import -static -static-libstdc++ -static-libgcc
+COMMON_CXXFLAGS+=-m32
+COMMON_LDFLAGS+=-m32
 COMMON_LIBS=-Wl,--as-needed -lsetupapi
 BOSSA_RC=BossaRes.rc
 WIXDIR="C:\Program Files (x86)\Windows Installer XML v3.5\bin"
