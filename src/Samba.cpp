@@ -583,6 +583,7 @@ Samba::reset(void)
         writeWord(0xE000ED0C, 0x05FA0004);
         break;
 
+      case SAM3A:
       case SAM3X:
         writeWord(0x400E1A00, 0xA500000D);
         break;
