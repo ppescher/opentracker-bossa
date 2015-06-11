@@ -3,7 +3,7 @@
 # 
 # Version
 #
-VERSION=1.4-arduino
+VERSION=1.4-opentracker
 WXVERSION=3.0
 
 #
