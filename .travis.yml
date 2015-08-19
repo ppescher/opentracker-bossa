@@ -1,0 +1,9 @@
+language: cpp
+
+compiler: gcc
+
+script: make bin/bossac
+
+os:
+  - linux
+  - osx
